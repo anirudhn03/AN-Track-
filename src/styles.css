@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Soft background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    background-color: #ffffff; /* White background for content */
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333333; /* Darker color for headers */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px; /* Larger font size for the header */
+    font-weight: bold; /* Make a.com bold */
+}
+
+h2 {
+    font-size: 28px; /* Larger title size for sections */
+    font-weight: bold; /* Bold for section titles */
+}
+
+input, button {
+    padding: 12px 20px;
+    margin: 8px;
+    border: 2px solid #ddd; /* Border for input and buttons */
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+
+input:focus, button:focus {
+    outline: none;
+    border-color: #3498db; /* Highlight border on focus */
+}
+
+button {
+    background-color: #4CAF50; /* Attractive button color */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker button color on hover */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+/* Styling for the navigation links to create oval shape and hover effects */
+nav ul li a {
+    text-decoration: none;
+    color: #2c3e50; /* Dark color for links */
+    font-size: 22px; /* Larger font size */
+    font-weight: 600; /* Bold text */
+    padding: 12px 24px;
+    border-radius: 30px; /* Oval design */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffff; /* White color on hover */
+    background-color: #3498db; /* Blue background on hover */
+    transform: scale(1.1); /* Slight scaling effect on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.active-link {
+    font-weight: bold;
+    color: #e74c3c; /* Active link color */
+}
+
+/* Home Page Titles */
+.home-page-title {
+    font-size: 50px; /* Large font for home page titles */
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.home-page-title span {
+    color: #3498db; /* Add blue color to part of the title */
+}
+
+/* Styling for individual section titles to make them bold and larger */
+h2 {
+    font-size: 32px; /* Larger title size for sections */
+    font-weight: bold; /* Bold for section titles */
+    margin-bottom: 20px;
+}
